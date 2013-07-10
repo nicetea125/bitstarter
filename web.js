@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-app.get('index.html', function(request, res) {
+app.get('/index.html', function(request, res) {
   response.send(res);
 });
 
